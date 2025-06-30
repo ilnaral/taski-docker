@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -11,7 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost', '127.0.0.1', 'taskimasaski.ddnsking.com',
     '51.250.31.54'
-    ]
+]
 
 
 # Application definition
